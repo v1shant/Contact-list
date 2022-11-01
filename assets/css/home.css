@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+#page-heading{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+}
+.divs{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+}
+
+.cul{
+    width: 300px;
+    padding: 0;
+}
+.contacts{
+    background-color: rgb(102, 102, 245);
+    color: white;
+    margin: 4px;
+    padding: 4px;
+}
+.contactss{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts:hover{
+    background-color: gray;
+}
+.cform{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+}
+.cinput{
+    outline: 0;
+    border: 0px;
+    border-bottom: 1px green solid;
+    width: 100px;
+}
+input:focus {
+    border: 2px lightblue solid;
+  }
+ .buttons{
+    background-color: black;
+    color: white;
+    width: 55px;
+}
+  .delete{
+    padding: 4px;
+    height: 16px;
+    color: white;
+    width: 16px;
+}
+.delete:hover,button:hover{
+    cursor: pointer;
+    background-color: red;
+    /* border: 2px solid red; */
+}

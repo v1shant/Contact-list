@@ -1,5 +1,5 @@
 # Contact-list
-It is an web app to store, update, delete, and search contacts. 
+It is a web app to store, update, delete, and search contacts. 
 
 ## Tech Stack
 - EJS
